@@ -1,0 +1,24 @@
+sonarqube:
+navigate to sonar and run StartSonar(C:\Users\919882\Downloads\sonarqube-6.7.4\sonarqube-6.7.6\bin\windows-x86-64)
+then navigate view -> tool windows -> maven -> lifecycle (install), plugins -> (sonar , sonar:sonar)
+
+kafka start:
+zookeeper-server-start.bat etc\kafka\zookeeper.properties
+kafka-server-start.bat etc\kafka\server.properties
+
+swagger :
+http://localhost:8081/swagger-ui/index.html
+http://tweetapppriya-env.eba-y8ytrr93.us-west-1.elasticbeanstalk.com/swagger-ui/index.html
+
+actuator :
+http://localhost:8081/actuator
+http://localhost:8081/actuator/health
+http://tweetapppriya-env.eba-y8ytrr93.us-west-1.elasticbeanstalk.com/actuator/health
+
+frontend -s3 - endpoint :
+http://tweet-app-priya.s3-website-us-west-1.amazonaws.com
+
+order:
+start sonarqube
+start zookeeper
+start kafka
